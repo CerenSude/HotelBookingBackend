@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from db import db
-from config import DevelopmentConfig  # ya da ProductionConfig
+from config import DevelopmentConfig 
 from models.user import User
 from routes.auth_routes import auth_routes
 from flasgger import Swagger
